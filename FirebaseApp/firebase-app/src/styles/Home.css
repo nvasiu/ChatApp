@@ -1,0 +1,35 @@
+.messageBox {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    overflow: scroll;
+    height: 500px;
+    width: 90%;
+}
+
+.message {
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #517c9c !important;
+    color: white !important;
+}
+
+.yourMessage {
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #58ad4b !important;
+    color: white !important;
+}
+
+.submitBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
